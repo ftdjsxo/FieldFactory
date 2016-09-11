@@ -14,6 +14,16 @@
 		1306CD4C1D85A963006E162D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1306CD4A1D85A963006E162D /* LaunchScreen.storyboard */; };
 		1306CD571D85A963006E162D /* FactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1306CD561D85A963006E162D /* FactoryTests.swift */; };
 		1306CD621D85A963006E162D /* FactoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1306CD611D85A963006E162D /* FactoryUITests.swift */; };
+		1306CD711D85AC34006E162D /* FieldsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1306CD701D85AC34006E162D /* FieldsContainer.swift */; };
+		1306CD731D85ACF3006E162D /* FieldBeanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1306CD721D85ACF3006E162D /* FieldBeanModel.swift */; };
+		1306CD751D85B31D006E162D /* ActionContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1306CD741D85B31D006E162D /* ActionContainer.swift */; };
+		1306CD771D85B47A006E162D /* ClienteBean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1306CD761D85B47A006E162D /* ClienteBean.swift */; };
+		1306CD791D85B8E4006E162D /* ValidatorContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1306CD781D85B8E4006E162D /* ValidatorContainer.swift */; };
+		1306CD7E1D85BC07006E162D /* TextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1306CD7D1D85BC07006E162D /* TextFieldExtension.swift */; };
+		1306CD801D85BD83006E162D /* FieldFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1306CD7F1D85BD83006E162D /* FieldFactory.swift */; };
+		1306CD821D85C6A5006E162D /* RegistrationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1306CD811D85C6A5006E162D /* RegistrationButton.swift */; };
+		1306CD841D85C6F1006E162D /* RegistrationTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1306CD831D85C6F1006E162D /* RegistrationTextField.swift */; };
+		F639338F72E14C94EA1191EB /* Pods_Factory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C0B0FE3536034656487A92 /* Pods_Factory.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,18 @@
 		1306CD5D1D85A963006E162D /* FactoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FactoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1306CD611D85A963006E162D /* FactoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryUITests.swift; sourceTree = "<group>"; };
 		1306CD631D85A963006E162D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1306CD701D85AC34006E162D /* FieldsContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldsContainer.swift; sourceTree = "<group>"; };
+		1306CD721D85ACF3006E162D /* FieldBeanModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldBeanModel.swift; sourceTree = "<group>"; };
+		1306CD741D85B31D006E162D /* ActionContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionContainer.swift; sourceTree = "<group>"; };
+		1306CD761D85B47A006E162D /* ClienteBean.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClienteBean.swift; sourceTree = "<group>"; };
+		1306CD781D85B8E4006E162D /* ValidatorContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidatorContainer.swift; sourceTree = "<group>"; };
+		1306CD7D1D85BC07006E162D /* TextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldExtension.swift; sourceTree = "<group>"; };
+		1306CD7F1D85BD83006E162D /* FieldFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldFactory.swift; sourceTree = "<group>"; };
+		1306CD811D85C6A5006E162D /* RegistrationButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationButton.swift; sourceTree = "<group>"; };
+		1306CD831D85C6F1006E162D /* RegistrationTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationTextField.swift; sourceTree = "<group>"; };
+		28C0B0FE3536034656487A92 /* Pods_Factory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Factory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F5162A3507F8D1D903D08D /* Pods-Factory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Factory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Factory/Pods-Factory.debug.xcconfig"; sourceTree = "<group>"; };
+		CF84E6724C5BCB53C94847D1 /* Pods-Factory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Factory.release.xcconfig"; path = "Pods/Target Support Files/Pods-Factory/Pods-Factory.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F639338F72E14C94EA1191EB /* Pods_Factory.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +100,12 @@
 		1306CD351D85A963006E162D = {
 			isa = PBXGroup;
 			children = (
-				1306CD401D85A963006E162D /* Factory */,
+				1306CD401D85A963006E162D /* Components */,
 				1306CD551D85A963006E162D /* FactoryTests */,
 				1306CD601D85A963006E162D /* FactoryUITests */,
 				1306CD3F1D85A963006E162D /* Products */,
+				2341C92DF18008C58F0E479A /* Pods */,
+				C9090B633A237744A9B8D99E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,16 +119,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1306CD401D85A963006E162D /* Factory */ = {
+		1306CD401D85A963006E162D /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				1306CD7C1D85BBE2006E162D /* Blocks */,
+				1306CD6F1D85AB7C006E162D /* Model */,
+				1306CD7A1D85B9B1006E162D /* Container */,
+				1306CD7B1D85BAE3006E162D /* Controller */,
+				1306CD7F1D85BD83006E162D /* FieldFactory.swift */,
 				1306CD411D85A963006E162D /* AppDelegate.swift */,
-				1306CD431D85A963006E162D /* ViewController.swift */,
 				1306CD451D85A963006E162D /* Main.storyboard */,
 				1306CD481D85A963006E162D /* Assets.xcassets */,
 				1306CD4A1D85A963006E162D /* LaunchScreen.storyboard */,
 				1306CD4D1D85A963006E162D /* Info.plist */,
 			);
+			name = Components;
 			path = Factory;
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,60 @@
 			path = FactoryUITests;
 			sourceTree = "<group>";
 		};
+		1306CD6F1D85AB7C006E162D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1306CD761D85B47A006E162D /* ClienteBean.swift */,
+				1306CD721D85ACF3006E162D /* FieldBeanModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1306CD7A1D85B9B1006E162D /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				1306CD701D85AC34006E162D /* FieldsContainer.swift */,
+				1306CD741D85B31D006E162D /* ActionContainer.swift */,
+				1306CD781D85B8E4006E162D /* ValidatorContainer.swift */,
+			);
+			name = Container;
+			sourceTree = "<group>";
+		};
+		1306CD7B1D85BAE3006E162D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1306CD431D85A963006E162D /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1306CD7C1D85BBE2006E162D /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				1306CD7D1D85BC07006E162D /* TextFieldExtension.swift */,
+				1306CD811D85C6A5006E162D /* RegistrationButton.swift */,
+				1306CD831D85C6F1006E162D /* RegistrationTextField.swift */,
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
+		2341C92DF18008C58F0E479A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63F5162A3507F8D1D903D08D /* Pods-Factory.debug.xcconfig */,
+				CF84E6724C5BCB53C94847D1 /* Pods-Factory.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C9090B633A237744A9B8D99E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28C0B0FE3536034656487A92 /* Pods_Factory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1306CD661D85A963006E162D /* Build configuration list for PBXNativeTarget "Factory" */;
 			buildPhases = (
+				EB46CA722468A4A9E5F925F4 /* 📦 Check Pods Manifest.lock */,
 				1306CD3A1D85A963006E162D /* Sources */,
 				1306CD3B1D85A963006E162D /* Frameworks */,
 				1306CD3C1D85A963006E162D /* Resources */,
+				38E90880B01433C692758F71 /* 📦 Embed Pods Frameworks */,
+				83734C17AC3F50D9385E2C38 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +338,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		38E90880B01433C692758F71 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Factory/Pods-Factory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83734C17AC3F50D9385E2C38 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Factory/Pods-Factory-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB46CA722468A4A9E5F925F4 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1306CD3A1D85A963006E162D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1306CD821D85C6A5006E162D /* RegistrationButton.swift in Sources */,
+				1306CD751D85B31D006E162D /* ActionContainer.swift in Sources */,
+				1306CD841D85C6F1006E162D /* RegistrationTextField.swift in Sources */,
+				1306CD7E1D85BC07006E162D /* TextFieldExtension.swift in Sources */,
 				1306CD441D85A963006E162D /* ViewController.swift in Sources */,
+				1306CD801D85BD83006E162D /* FieldFactory.swift in Sources */,
+				1306CD771D85B47A006E162D /* ClienteBean.swift in Sources */,
 				1306CD421D85A963006E162D /* AppDelegate.swift in Sources */,
+				1306CD731D85ACF3006E162D /* FieldBeanModel.swift in Sources */,
+				1306CD791D85B8E4006E162D /* ValidatorContainer.swift in Sources */,
+				1306CD711D85AC34006E162D /* FieldsContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +539,7 @@
 		};
 		1306CD671D85A963006E162D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63F5162A3507F8D1D903D08D /* Pods-Factory.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Factory/Info.plist;
@@ -406,6 +551,7 @@
 		};
 		1306CD681D85A963006E162D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF84E6724C5BCB53C94847D1 /* Pods-Factory.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Factory/Info.plist;
@@ -482,6 +628,7 @@
 				1306CD681D85A963006E162D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1306CD691D85A963006E162D /* Build configuration list for PBXNativeTarget "FactoryTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +637,7 @@
 				1306CD6B1D85A963006E162D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1306CD6C1D85A963006E162D /* Build configuration list for PBXNativeTarget "FactoryUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +646,7 @@
 				1306CD6E1D85A963006E162D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
