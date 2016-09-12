@@ -88,6 +88,15 @@ class FieldFactory {
         textField.id = beandModel.id
         textField.placeholder = beandModel.placeolder
         textField.backgroundColor = UIColor.whiteColor().colorWithAlphaComponent(0.6)
+        textField.leftViewMode = .Always
+        textField.leftView = UIView()
+        textField.leftView?.frame = CGRectMake(0, 0, 10, 0)
+        textField.clearButtonMode = .WhileEditing
+        textField.attributedPlaceholder = NSAttributedString(string: textField.placeholder!,
+                                                            attributes:[NSForegroundColorAttributeName: UIColor.lightGrayColor()])
+        textField.addTarget(textField,
+                            action: #selector(RegistrationTextField.resetColorOnEditingChange),
+                            forControlEvents: .EditingChanged)
     }
     
     private class func SetLabel(beandModel : FieldBeanModel, label : UILabel){

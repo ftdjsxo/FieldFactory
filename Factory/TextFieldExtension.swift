@@ -21,7 +21,7 @@ extension UITextField {
             if NSPredicate(format:"SELF MATCHES %@", regEX).evaluateWithObject(text!){
                 self.textColor = UIColor.blackColor()
                 self.attributedPlaceholder = NSAttributedString(string: self.placeholder!,
-                    attributes:[NSForegroundColorAttributeName: UIColor.lightGrayColor()])
+                    attributes:[NSForegroundColorAttributeName: UIColor.lightTextColor()])
                 return true
             }
         }
@@ -30,5 +30,11 @@ extension UITextField {
         self.attributedPlaceholder = NSAttributedString(string: self.placeholder!,
             attributes:[NSForegroundColorAttributeName: UIColor.redColor()])
         return false
+    }
+    
+    func resetColorOnEditingChange(){
+        self.textColor = UIColor.blackColor()
+        self.attributedPlaceholder = NSAttributedString(string: self.placeholder!,
+                                                        attributes:[NSForegroundColorAttributeName: UIColor.lightGrayColor()])
     }
 }

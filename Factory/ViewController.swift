@@ -20,7 +20,6 @@ class ViewController: UIViewController {
         self.view.backgroundColor = UIColor.groupTableViewBackgroundColor()
 
         if id != nil {
-            cliente = ClienteBean()
             fieldsToPresent = FieldFactory.GetSection(by: id!)
             self.title = FieldFactory.GetTitle(by: id!)
         }else{
@@ -38,6 +37,13 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(true)
+        if id == nil {
+            cliente = ClienteBean()
+        }
     }
     
     final private func prepareFields(){
