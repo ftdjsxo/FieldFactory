@@ -57,6 +57,8 @@ class ViewController: UIViewController {
             
             if let fieldButton = field as? RegistrationButton{
                 fieldButton.addTarget(self, action: #selector(ViewController.onButtonClick(_:)), forControlEvents: .TouchUpInside)
+            }else if let textField = field as? RegistrationTextField, c = cliente{
+                textField.text = c.valueForKey(textField.id!) as? String
             }
         }
     }
@@ -87,8 +89,7 @@ class ViewController: UIViewController {
         var isValid = true
         for v in self.view.subviews{
             if let textField = v as? RegistrationTextField{
-                let validatorID = textField.id
-                if let regexs = ValidatorContainer.VALIDATORS[validatorID!]{
+                if let regexs = FieldFactory.GetValidators(byRTextField: textField){
                     regexLoop: for r in regexs{
                         if textField.validateField(withRegex: r) == false{
                             isValid = false
@@ -96,7 +97,6 @@ class ViewController: UIViewController {
                         }
                     }
                 }
-               
             }
         }
         
@@ -116,10 +116,6 @@ class ViewController: UIViewController {
                 }
             }
         }
-        
-//        let clienteMirror = Mirror(reflecting: cliente)
-//         for child in clienteMirror.children{
-//        }
     }
     
     func onButtonClick(sender : RegistrationButton?){

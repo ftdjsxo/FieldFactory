@@ -67,6 +67,17 @@ class FieldFactory {
         return field
     }
     
+    class func GetValidators(byid id: String) -> [String]?{
+        return ValidatorContainer.VALIDATORS[id]
+    }
+    
+    class func GetValidators(byRTextField textField: RegistrationTextField) -> [String]?{
+        guard let id = textField.id else {
+            return nil
+        }
+        return GetValidators(byid: id)
+    }
+    
     
     class func GetAction(actionID : String) -> ((AnyObject?) -> Void)?{
         return ActionContainer.ACTIONS[actionID]
